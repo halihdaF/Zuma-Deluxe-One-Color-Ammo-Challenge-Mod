@@ -7,82 +7,76 @@
 
 ## <a name="english"></a>🇬🇧 English Version
 
-**Zuma Deluxe: One Color Ammo** is a challenge mod for Zuma Deluxe (`popcapgame1.exe`) that locks the frog's ammo to a single randomly chosen color every time you start or restart a level. 
+**Zuma One Color Ammo** is a challenge mod for **Zuma Deluxe v1.0**. It locks the frog's ammo to a single randomly chosen color. The color is selected from the available palette in the current level and is re-rolled every time you start a new level or restart the current one.
 
-This mod was built using Python and Frida, then compiled into a single `.exe` file so you can play it instantly without setting up a programming environment.
+### 📥 Download (Ready to Play)
+👉 **[CLICK HERE TO DOWNLOAD THE LATEST RELEASE (.ZIP)](https://github.com/halihdaF/Zuma-Deluxe-One-Color-Ammo-Challenge-Mod/releases/latest)** 👈
 
-### 📥 Download Link (For Regular Players)
-Don't know how to code? No problem! You don't need to download the source code. Just download the ready-to-play application (EXE) file below:
+### 🎮 How to Use
+1. Download the `.zip` file from the Releases page and extract it.
+2. You will find 3 files. Copy **all three files** and paste them into your Zuma Deluxe game folder (place them right next to `Zuma-windowed.exe` or `popcapgame1.exe`).
+3. Double-click `ZumaAmmoLock.exe`. The game will automatically open with the mod activated.
 
-👉 **[CLICK HERE TO DOWNLOAD THE LATEST RELEASE](https://github.com/halihdaF/Zuma-Deluxe-One-Color-Ammo-Challenge-Mod/releases/latest)** 👈
+### ⚙️ Configuration
+You can customize the mod's behavior by editing the `zuma_ammo_lock.ini` file using Notepad. 
+*   You can set a fixed color instead of a random one.
+*   You can adjust the initial color detection time.
 
-*(Once you click the link above, look under "Assets" and click on **zuma-ammo-lock.exe** to start downloading).*
+### ⚠️ Important Notes & Disclaimers
+*   **Version Compatibility:** This mod *only* supports **Zuma Deluxe v1.0**. If you use a different version, the mod will display a message and safely deactivate itself without modifying the game.
+*   **Flickering Ammo:** If the ball in the frog's mouth flickers rapidly, this is **normal**. Once shot, it will strictly remain the locked color.
+*   **Antivirus False Positives:** Your antivirus might flag the launcher as a threat. This is a false positive because the launcher uses standard DLL injection techniques to load the mod. The full source code is available in this repository for verification.
+*   **Offline Only:** This is for single-player offline use. This repository does **not** contain any original game files or pirated content.
 
-### 🌟 Features
-*   **Auto-Lock Color:** Every time a new level starts, the mod detects the colors on the map for a few seconds, then randomly selects and locks one color for your ammo.
-*   **Customizable Detection Time:** Extend the color detection period using the `--detect` argument.
-*   **Force Color:** Manually force a specific color instead of a random one using the `--force-color` argument.
-*   **Plug & Play:** Run the compiled `.exe` directly without installing Python or Frida.
+### 🛠️ Build from Source
+If you want to compile the mod yourself, use **Visual Studio**:
+*   **Configuration:** `x86 (Win32)`, `Release`
+*   **Runtime Library:** Multi-threaded (`/MT`)
+*   **Projects:**
+    *   `zuma_ammo_lock.cpp`: The main DLL project (requires linking `libMinHook.x86.lib`).
+    *   `launcher.cpp`: Windows application project (Subsystem: Windows) that outputs `ZumaAmmoLock.exe`.
 
-### 🎮 How to Use (Crucial Steps)
-1.  Open **Zuma Deluxe** and stay at the *Main Menu* or *Map Screen*.
-2.  Run `zuma-ammo-lock.exe` (or the Python script). **You MUST run the mod BEFORE entering a level**, as it hooks into the level creation system.
-3.  Enter a level. The mod will detect colors (default is 6 seconds) and then lock your ammo to one color.
+### ⚖️ License
+This project utilizes [MinHook](https://github.com/TsudaKageyu/minhook), which is licensed under the BSD 2-Clause License. The license is included in this repository.
 
-### 💻 Command Line Arguments (Optional)
-If you run the `.exe` or script via Command Prompt, you can use these arguments:
-*   `zuma-ammo-lock.exe --detect 8` : Sets the initial color palette detection time to 8 seconds.
-*   `zuma-ammo-lock.exe --force-color 2` : Locks the ammo to a specific color ID (skips randomization).
-
-### ⚠️ Disclaimer & Normal Bugs
-**Flickering Ammo:** If the ball in the frog's mouth flickers rapidly between colors, **this is NORMAL**. The game engine is trying to load the original color, but the mod is constantly overwriting it with the locked color. Once you shoot the ball, it will strictly remain the locked color.
-
-### ❓ FAQ
-*   **Q: Why is the `.exe` file 64 MB if it's just a simple mod?**
-    **A:** The `.exe` was compiled using `pyinstaller --onefile`. This means the entire Python runtime and heavy libraries like `Frida` (which handles memory injection) are bundled inside one file for your convenience. If you prefer, you can download the lightweight `zuma-ammo-lock.py` script (around 13 KB) and run it manually using your own Python environment.
-
-### 🤝 Contribute! (Open for PR)
-For those who understand reverse engineering or advanced modding, feel free to modify, clean up, or optimize this script. 
-**Special Challenge:** If anyone can patch the assembly in the original game file (`popcapgame1.exe`) permanently so we **no longer need third-party apps** like this, your Pull Request is highly anticipated! Let's make this mod perfect.
+### 🤝 Contribute!
+For reverse engineers and C++ modders: If you can patch the original assembly permanently to eliminate the need for a DLL injector launcher, your Pull Request is highly anticipated!
 
 ---
 
 ## <a name="indonesian"></a>🇮🇩 Versi Indonesia
 
-**Zuma Deluxe: One Color Ammo** adalah mod tantangan untuk game Zuma Deluxe (`popcapgame1.exe`) yang mengunci peluru dari mulut kodok menjadi hanya 1 warna secara acak setiap kali kamu berganti level atau me-restart permainan.
+**Zuma One Color Ammo** adalah mod tantangan untuk **Zuma Deluxe v1.0** yang mengunci peluru kodok menjadi hanya 1 warna. Warna dipilih secara acak berdasarkan warna bola yang ada di level tersebut, dan akan diacak ulang setiap kali kamu masuk level baru atau me-restart permainan.
 
-Mod ini dibuat menggunakan Python dan Frida, lalu di-*compile* menjadi file `.exe` agar kalian bisa langsung memainkannya tanpa perlu repot menginstal bahasa pemrograman.
+### 📥 Link Download (Siap Main)
+👉 **[KLIK DI SINI UNTUK DOWNLOAD VERSI TERBARU (.ZIP)](https://github.com/halihdaF/Zuma-Deluxe-One-Color-Ammo-Challenge-Mod/releases/latest)** 👈
 
-### 📥 Link Download (Untuk Pemain / Orang Awam)
-Tidak mengerti bahasa pemrograman? Tenang saja! Kamu tidak perlu *download* file kodingannya. Langsung saja *download* file aplikasi (EXE) yang sudah jadi dan siap main di bawah ini:
+### 🎮 Cara Penggunaan
+1. Download file `.zip` dari halaman *Releases* lalu ekstrak.
+2. Kamu akan menemukan 3 buah file. Pindahkan **ketiga file tersebut** ke dalam folder game Zuma Deluxe kamu (taruh bersebelahan persis dengan file `Zuma-windowed.exe` atau `popcapgame1.exe`).
+3. Klik dua kali pada file `ZumaAmmoLock.exe`. Game akan otomatis terbuka dengan mod yang sudah aktif.
 
-👉 **[KLIK DI SINI UNTUK DOWNLOAD VERSI TERBARU](https://github.com/halihdaF/Zuma-Deluxe-One-Color-Ammo-Challenge-Mod/releases/latest)** 👈
+### ⚙️ Konfigurasi (Opsional)
+Kamu bisa mengatur mod ini dengan membuka file `zuma_ammo_lock.ini` menggunakan Notepad.
+*   Bisa mengatur warna tetap (tidak diacak).
+*   Bisa mengatur durasi waktu deteksi palet warna.
 
-*(Setelah masuk ke halaman tautan di atas, cari dan klik file bernama **zuma-ammo-lock.exe** di bawah tulisan Assets untuk mulai mendownload).*
+### ⚠️ Catatan Penting
+*   **Hanya untuk v1.0:** Mod ini hanya mendukung **Zuma Deluxe v1.0**. Jika dijalankan di versi lain, mod akan menampilkan pesan peringatan dan mati otomatis (tidak akan memodifikasi file game).
+*   **Peluru Berkedip:** Jika warna peluru di mulut kodok terlihat berkedip sebentar, itu adalah hal yang **normal**. Saat ditembakkan, warnanya tetap sesuai yang dikunci.
+*   **Peringatan Antivirus (False Positive):** Antivirus kamu mungkin mencurigai file ini. Ini normal karena program *launcher* menggunakan teknik injeksi DLL. *Source code* lengkap tersedia di *repository* ini transparan 100%.
+*   **Single-player:** Mod ini murni untuk dimainkan *offline*. *Repository* ini **tidak** menyediakan file asli game Zuma Deluxe.
 
-### 🌟 Fitur Utama
-*   **Auto-Lock Color:** Tiap masuk level baru, mod akan membaca palet warna di layar selama beberapa detik, lalu memilih 1 warna acak untuk dikunci.
-*   **Customizable Detection Time:** Waktu deteksi palet warna awal bisa diatur lebih lama menggunakan argumen `--detect`.
-*   **Force Color:** Memaksa peluru terkunci ke satu warna spesifik tanpa diacak menggunakan argumen `--force-color`.
-*   **Plug & Play:** Tinggal klik file `.exe` dan langsung main tanpa instalasi tambahan.
+### 🛠️ Build dari Source Code
+Untuk kamu yang ingin meng-*compile* sendiri menggunakan **Visual Studio**:
+*   **Pengaturan:** Platform `x86 (Win32)`, Mode `Release`
+*   **Runtime Library:** Multi-threaded (`/MT`)
+*   **Struktur Project:**
+    *   `zuma_ammo_lock.cpp`: Project DLL (wajib me-*link* `libMinHook.x86.lib`).
+    *   `launcher.cpp`: Project aplikasi Windows (Subsystem: Windows) untuk menghasilkan `ZumaAmmoLock.exe`.
 
-### 🎮 Cara Penggunaan (Sangat Penting)
-1.  Buka game **Zuma Deluxe** terlebih dahulu dan diam di *Main Menu*.
-2.  Buka/jalankan `zuma-ammo-lock.exe`. **Mod ini WAJIB dijalankan SEBELUM kalian masuk ke dalam level** karena sistem mendeteksi pergantian level lewat konstruktor game.
-3.  Masuk ke level. Mod akan melakukan deteksi warna (*default* 6 detik) lalu amunisi akan terkunci ke satu warna.
+### ⚖️ Lisensi
+Mod ini menggunakan *library* [MinHook](https://github.com/TsudaKageyu/minhook) (Lisensi BSD 2-Clause). File lisensinya disertakan di dalam *repository* ini.
 
-### 💻 Command Line Arguments (Opsional)
-Jika kamu menjalankan file lewat *Command Prompt* (CMD) atau Terminal, kamu bisa menambahkan argumen ini:
-*   `zuma-ammo-lock.exe --detect 8` : Memperpanjang waktu deteksi warna awal menjadi 8 detik.
-*   `zuma-ammo-lock.exe --force-color 2` : Mengunci peluru secara paksa ke satu warna tanpa diacak.
-
-### ⚠️ Disclaimer & Bugs
-**Peluru Berkedip (Flickering):** Kalau warna peluru di mulut kodok terlihat berkedip atau berganti-ganti warna, **itu NORMAL**. Game masih berusaha memunculkan warna aslinya, namun script mod ini langsung menimpanya. Saat peluru ditembakkan, warnanya dipastikan akan tetap mengikuti warna yang sudah dikunci.
-
-### ❓ FAQ (Pertanyaan yang Sering Diajukan)
-*   **Q: Kenapa ukuran file `.exe` mod ini sampai 64 MB padahal fungsinya simpel?**
-    **A:** File `.exe` ini di-*compile* menggunakan `pyinstaller --onefile`. Artinya, seluruh sistem *interpreter* Python beserta *library* berat seperti `Frida` (untuk injeksi memori) dibungkus ke dalam satu file agar kamu bisa langsung memainkannya. Jika ragu, kamu selalu bisa mengunduh *source code* aslinya (`zuma-ammo-lock.py`) yang berukuran sekitar 13 KB dan menjalankannya sendiri secara manual.
-
-### 🤝 Mari Berkontribusi! (Open for PR)
-Buat kalian yang paham *reverse engineering* atau *modding* tingkat lanjut, silakan banget kalau mau memodifikasi, merapikan, atau mengoptimalkan *script* ini. 
-**Tantangan Khusus:** Kalau ada yang jago sampai bisa mengubah (*patching*) *assembly* di file game aslinya (`popcapgame1.exe`) secara permanen sehingga kita **tidak perlu lagi pakai aplikasi pihak ketiga/tambahan** seperti ini, *Pull Request* kalian sangat ditunggu! Mari kita buat mod ini makin sempurna.
+### 🤝 Mari Berkontribusi!
+Tantangan khusus untuk para *modder*: Kalau ada yang berhasil mengubah (*patching*) *assembly* di file game aslinya secara permanen sehingga kita tidak butuh *launcher* injeksi lagi, *Pull Request* kalian sangat ditunggu!
