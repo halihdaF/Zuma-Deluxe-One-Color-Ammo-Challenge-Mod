@@ -37,7 +37,7 @@ If you run the `.exe` or script via Command Prompt, you can use these arguments:
     ### 📥 Download Link (For Regular Players)
 Don't know how to code? No problem! You don't need to download the source code. Just download the ready-to-play application (EXE) file below:
 
-👉 **[CLICK HERE TO DOWNLOAD THE LATEST RELEASE (.EXE)](https://github.com/halihdaF/Zuma-Deluxe-One-Color-Ammo-Challenge-Mod/releases/latest)** 👈
+👉 **[CLICK HERE TO DOWNLOAD THE LATEST RELEASE](https://github.com/halihdaF/Zuma-Deluxe-One-Color-Ammo-Challenge-Mod/releases/latest)** 👈
 
 *(Once you click the link above, look under "Assets" and click on **zuma-ammo-lock.exe** to start downloading).*
 
@@ -75,6 +75,6 @@ Jika kamu menjalankan file lewat *Command Prompt* (CMD) atau Terminal, kamu bisa
     ### 📥 Link Download (Untuk Pemain / Orang Awam)
 Tidak mengerti bahasa pemrograman? Tenang saja! Kamu tidak perlu *download* file kodingannya. Langsung saja *download* file aplikasi (EXE) yang sudah jadi dan siap main di bawah ini:
 
-👉 **[KLIK DI SINI UNTUK DOWNLOAD VERSI TERBARU (.EXE)](https://github.com/halihdaF/Zuma-Deluxe-One-Color-Ammo-Challenge-Mod/releases/latest)** 👈
+👉 **[KLIK DI SINI UNTUK DOWNLOAD VERSI TERBARU](https://github.com/halihdaF/Zuma-Deluxe-One-Color-Ammo-Challenge-Mod/releases/latest)** 👈
 
 *(Setelah masuk ke halaman tautan di atas, cari dan klik file bernama **zuma-ammo-lock.exe** di bawah tulisan Assets untuk mulai mendownload).*
