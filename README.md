@@ -34,6 +34,13 @@ If you run the `.exe` or script via Command Prompt, you can use these arguments:
 *   **Q: Why is the `.exe` file 66 MB if it's just a simple mod?**
     **A:** The `.exe` was compiled using `pyinstaller --onefile`. This means the entire Python runtime and heavy libraries like `Frida` (which handles memory injection) are bundled inside one file for your convenience. If you prefer, you can download the lightweight `zuma-ammo-lock.py` script (around 13 KB) and run it manually using your own Python environment.
 
+    ### 📥 Download Link (For Regular Players)
+Don't know how to code? No problem! You don't need to download the source code. Just download the ready-to-play application (EXE) file below:
+
+👉 **[CLICK HERE TO DOWNLOAD THE LATEST RELEASE (.EXE)](https://github.com/halihdaF/Zuma-Deluxe-One-Color-Ammo-Challenge-Mod/releases/latest)** 👈
+
+*(Once you click the link above, look under "Assets" and click on **zuma-ammo-lock.exe** to start downloading).*
+
 ---
 
 ## <a name="indonesian"></a>🇮🇩 Versi Indonesia
@@ -64,3 +71,10 @@ Jika kamu menjalankan file lewat *Command Prompt* (CMD) atau Terminal, kamu bisa
 ### ❓ FAQ (Pertanyaan yang Sering Diajukan)
 *   **Q: Kenapa ukuran file `.exe` mod ini sampai 66 MB padahal fungsinya simpel?**
     **A:** File `.exe` ini di-*compile* menggunakan `pyinstaller --onefile`. Artinya, seluruh sistem *interpreter* Python beserta *library* berat seperti `Frida` (untuk injeksi memori) dibungkus ke dalam satu file agar kamu bisa langsung memainkannya. Jika ragu, kamu selalu bisa mengunduh *source code* aslinya (`zuma-ammo-lock.py`) yang berukuran sekitar 13 KB dan menjalankannya sendiri secara manual.
+
+    ### 📥 Link Download (Untuk Pemain / Orang Awam)
+Tidak mengerti bahasa pemrograman? Tenang saja! Kamu tidak perlu *download* file kodingannya. Langsung saja *download* file aplikasi (EXE) yang sudah jadi dan siap main di bawah ini:
+
+👉 **[KLIK DI SINI UNTUK DOWNLOAD VERSI TERBARU (.EXE)](https://github.com/halihdaF/Zuma-Deluxe-One-Color-Ammo-Challenge-Mod/releases/latest)** 👈
+
+*(Setelah masuk ke halaman tautan di atas, cari dan klik file bernama **zuma-ammo-lock.exe** di bawah tulisan Assets untuk mulai mendownload).*
