@@ -38,7 +38,7 @@ If you run the `.exe` or script via Command Prompt, you can use these arguments:
 **Flickering Ammo:** If the ball in the frog's mouth flickers rapidly between colors, **this is NORMAL**. The game engine is trying to load the original color, but the mod is constantly overwriting it with the locked color. Once you shoot the ball, it will strictly remain the locked color.
 
 ### ❓ FAQ
-*   **Q: Why is the `.exe` file 66 MB if it's just a simple mod?**
+*   **Q: Why is the `.exe` file 64 MB if it's just a simple mod?**
     **A:** The `.exe` was compiled using `pyinstaller --onefile`. This means the entire Python runtime and heavy libraries like `Frida` (which handles memory injection) are bundled inside one file for your convenience. If you prefer, you can download the lightweight `zuma-ammo-lock.py` script (around 13 KB) and run it manually using your own Python environment.
 
 ### 🤝 Contribute! (Open for PR)
@@ -80,7 +80,7 @@ Jika kamu menjalankan file lewat *Command Prompt* (CMD) atau Terminal, kamu bisa
 **Peluru Berkedip (Flickering):** Kalau warna peluru di mulut kodok terlihat berkedip atau berganti-ganti warna, **itu NORMAL**. Game masih berusaha memunculkan warna aslinya, namun script mod ini langsung menimpanya. Saat peluru ditembakkan, warnanya dipastikan akan tetap mengikuti warna yang sudah dikunci.
 
 ### ❓ FAQ (Pertanyaan yang Sering Diajukan)
-*   **Q: Kenapa ukuran file `.exe` mod ini sampai 66 MB padahal fungsinya simpel?**
+*   **Q: Kenapa ukuran file `.exe` mod ini sampai 64 MB padahal fungsinya simpel?**
     **A:** File `.exe` ini di-*compile* menggunakan `pyinstaller --onefile`. Artinya, seluruh sistem *interpreter* Python beserta *library* berat seperti `Frida` (untuk injeksi memori) dibungkus ke dalam satu file agar kamu bisa langsung memainkannya. Jika ragu, kamu selalu bisa mengunduh *source code* aslinya (`zuma-ammo-lock.py`) yang berukuran sekitar 13 KB dan menjalankannya sendiri secara manual.
 
 ### 🤝 Mari Berkontribusi! (Open for PR)
