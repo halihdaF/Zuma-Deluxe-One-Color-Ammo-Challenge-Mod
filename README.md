@@ -14,7 +14,7 @@
 
 ### 🎮 How to Use
 1. Download the `.zip` file from the Releases page and extract it.
-2. You will find 3 files. Copy **all three files** and paste them into your Zuma Deluxe game folder (place them right next to `Zuma-windowed.exe` or `popcapgame1.exe`).
+2. You will find 3 files. Copy **all three files** and paste them into your Zuma Deluxe game folder (place them right next to `Zuma.exe`).
 3. Double-click `ZumaAmmoLock.exe`. The game will automatically open with the mod activated.
 
 ### ⚙️ Configuration
@@ -53,7 +53,7 @@ For reverse engineers and C++ modders: If you can patch the original assembly pe
 
 ### 🎮 Cara Penggunaan
 1. Download file `.zip` dari halaman *Releases* lalu ekstrak.
-2. Kamu akan menemukan 3 buah file. Pindahkan **ketiga file tersebut** ke dalam folder game Zuma Deluxe kamu (taruh bersebelahan persis dengan file `Zuma-windowed.exe` atau `popcapgame1.exe`).
+2. Kamu akan menemukan 3 buah file. Pindahkan **ketiga file tersebut** ke dalam folder game Zuma Deluxe kamu (taruh bersebelahan persis dengan file `Zuma.exe`).
 3. Klik dua kali pada file `ZumaAmmoLock.exe`. Game akan otomatis terbuka dengan mod yang sudah aktif.
 
 ### ⚙️ Konfigurasi (Opsional)
