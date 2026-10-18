@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ZumaOneColorAmmo/ZumaOneColorAmmo.vcxproj" Id="a67010e5-ed1f-4dda-8f90-58ad8e7588c8" />
+</Solution>
