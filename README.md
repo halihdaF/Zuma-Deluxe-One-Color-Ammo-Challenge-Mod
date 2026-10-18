@@ -11,6 +11,13 @@
 
 This mod was built using Python and Frida, then compiled into a single `.exe` file so you can play it instantly without setting up a programming environment.
 
+### 📥 Download Link (For Regular Players)
+Don't know how to code? No problem! You don't need to download the source code. Just download the ready-to-play application (EXE) file below:
+
+👉 **[CLICK HERE TO DOWNLOAD THE LATEST RELEASE](https://github.com/halihdaF/Zuma-Deluxe-One-Color-Ammo-Challenge-Mod/releases/latest)** 👈
+
+*(Once you click the link above, look under "Assets" and click on **zuma-ammo-lock.exe** to start downloading).*
+
 ### 🌟 Features
 *   **Auto-Lock Color:** Every time a new level starts, the mod detects the colors on the map for a few seconds, then randomly selects and locks one color for your ammo.
 *   **Customizable Detection Time:** Extend the color detection period using the `--detect` argument.
@@ -34,12 +41,9 @@ If you run the `.exe` or script via Command Prompt, you can use these arguments:
 *   **Q: Why is the `.exe` file 66 MB if it's just a simple mod?**
     **A:** The `.exe` was compiled using `pyinstaller --onefile`. This means the entire Python runtime and heavy libraries like `Frida` (which handles memory injection) are bundled inside one file for your convenience. If you prefer, you can download the lightweight `zuma-ammo-lock.py` script (around 13 KB) and run it manually using your own Python environment.
 
-    ### 📥 Download Link (For Regular Players)
-Don't know how to code? No problem! You don't need to download the source code. Just download the ready-to-play application (EXE) file below:
-
-👉 **[CLICK HERE TO DOWNLOAD THE LATEST RELEASE](https://github.com/halihdaF/Zuma-Deluxe-One-Color-Ammo-Challenge-Mod/releases/latest)** 👈
-
-*(Once you click the link above, look under "Assets" and click on **zuma-ammo-lock.exe** to start downloading).*
+### 🤝 Contribute! (Open for PR)
+For those who understand reverse engineering or advanced modding, feel free to modify, clean up, or optimize this script. 
+**Special Challenge:** If anyone can patch the assembly in the original game file (`popcapgame1.exe`) permanently so we **no longer need third-party apps** like this, your Pull Request is highly anticipated! Let's make this mod perfect.
 
 ---
 
@@ -48,6 +52,13 @@ Don't know how to code? No problem! You don't need to download the source code. 
 **Zuma Deluxe: One Color Ammo** adalah mod tantangan untuk game Zuma Deluxe (`popcapgame1.exe`) yang mengunci peluru dari mulut kodok menjadi hanya 1 warna secara acak setiap kali kamu berganti level atau me-restart permainan.
 
 Mod ini dibuat menggunakan Python dan Frida, lalu di-*compile* menjadi file `.exe` agar kalian bisa langsung memainkannya tanpa perlu repot menginstal bahasa pemrograman.
+
+### 📥 Link Download (Untuk Pemain / Orang Awam)
+Tidak mengerti bahasa pemrograman? Tenang saja! Kamu tidak perlu *download* file kodingannya. Langsung saja *download* file aplikasi (EXE) yang sudah jadi dan siap main di bawah ini:
+
+👉 **[KLIK DI SINI UNTUK DOWNLOAD VERSI TERBARU](https://github.com/halihdaF/Zuma-Deluxe-One-Color-Ammo-Challenge-Mod/releases/latest)** 👈
+
+*(Setelah masuk ke halaman tautan di atas, cari dan klik file bernama **zuma-ammo-lock.exe** di bawah tulisan Assets untuk mulai mendownload).*
 
 ### 🌟 Fitur Utama
 *   **Auto-Lock Color:** Tiap masuk level baru, mod akan membaca palet warna di layar selama beberapa detik, lalu memilih 1 warna acak untuk dikunci.
@@ -72,9 +83,6 @@ Jika kamu menjalankan file lewat *Command Prompt* (CMD) atau Terminal, kamu bisa
 *   **Q: Kenapa ukuran file `.exe` mod ini sampai 66 MB padahal fungsinya simpel?**
     **A:** File `.exe` ini di-*compile* menggunakan `pyinstaller --onefile`. Artinya, seluruh sistem *interpreter* Python beserta *library* berat seperti `Frida` (untuk injeksi memori) dibungkus ke dalam satu file agar kamu bisa langsung memainkannya. Jika ragu, kamu selalu bisa mengunduh *source code* aslinya (`zuma-ammo-lock.py`) yang berukuran sekitar 13 KB dan menjalankannya sendiri secara manual.
 
-    ### 📥 Link Download (Untuk Pemain / Orang Awam)
-Tidak mengerti bahasa pemrograman? Tenang saja! Kamu tidak perlu *download* file kodingannya. Langsung saja *download* file aplikasi (EXE) yang sudah jadi dan siap main di bawah ini:
-
-👉 **[KLIK DI SINI UNTUK DOWNLOAD VERSI TERBARU](https://github.com/halihdaF/Zuma-Deluxe-One-Color-Ammo-Challenge-Mod/releases/latest)** 👈
-
-*(Setelah masuk ke halaman tautan di atas, cari dan klik file bernama **zuma-ammo-lock.exe** di bawah tulisan Assets untuk mulai mendownload).*
+### 🤝 Mari Berkontribusi! (Open for PR)
+Buat kalian yang paham *reverse engineering* atau *modding* tingkat lanjut, silakan banget kalau mau memodifikasi, merapikan, atau mengoptimalkan *script* ini. 
+**Tantangan Khusus:** Kalau ada yang jago sampai bisa mengubah (*patching*) *assembly* di file game aslinya (`popcapgame1.exe`) secara permanen sehingga kita **tidak perlu lagi pakai aplikasi pihak ketiga/tambahan** seperti ini, *Pull Request* kalian sangat ditunggu! Mari kita buat mod ini makin sempurna.
